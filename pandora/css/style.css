@@ -1,0 +1,467 @@
+
+body{
+  background-image: url("https://cdn.iview.abc.net.au/thumbs/i/ac/AC2112H_627da68dc8908_3840.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+
+}
+
+
+.navbar-brand{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.form-control{
+  background-color: rgba(255,255,255,0.4);
+  width: 500px;
+
+}
+
+.search-bar{
+  max-width: 700px;
+  width: 50%;
+  background: rgba(250, 250, 250, 0.1);
+  display: inline;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.nav-link{
+  color: #fff;
+  margin-right: 10px;
+}
+svg{
+  cursor: pointer;
+}
+
+
+.bi-person-circle,.bi-archive,.bi-camera2{
+  width: 50px;
+  height: 50px;
+  color: rgba(255,255,255,0.5);
+  padding: 17px;
+  margin-left: 10px;
+  margin-right:10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}
+
+.bi-camera2:hover{
+  color: rgb(0,0,0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.8s;
+
+}
+
+.bi-archive:hover{
+  color: rgb(0,0,0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.8s;
+}
+
+.bi-person-circle:hover{
+  color: rgb(0,0,0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.8s;
+}
+
+
+.fa-solid{
+  padding-right: 20px;
+  color: #fff;
+}
+
+.search{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  width: 300px;
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+
+}
+/* Section1 */
+.first_section{
+  max-width: 2000px;
+  min-width: 1500px;
+  margin: 0;
+  margin-top: 200px;
+
+}
+.section1{
+  background: #fff;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+
+}
+.profile_photo{
+  width: 100px;
+  position: absolute;
+  top: 170px;
+  left: 160px;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: #fff;
+  z-index: 1;
+}
+
+
+.profile{
+  font-family: 'Roboto', sans-serif;
+  background: rgb(255,255,255);
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 320px;
+  height: 750px;
+  text-align: center;
+  padding-top: 80px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+
+
+}
+.exotic{
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+
+}
+
+.dark{
+  font-weight: 500;
+}
+
+.sub{
+  font-size: 12px;
+}
+.bi-star,.bi-share,.bi-clipboard2-pulse-fill{
+  width: 45px;
+  height: 47px;
+  padding: 15px;
+  margin: 0px 7px 10px 7px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  border: 1px solid #EAEAEA;
+
+}
+
+.bi-star:hover{
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0,0.7);
+  transition: 0.7s;
+}
+
+.bi-share:hover{
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0,0.7);
+  transition: 0.7s;
+}
+
+.bi-clipboard2-pulse-fill:hover{
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0,0.7);
+  transition: 0.7s;
+}
+
+.table1{
+  margin: auto;
+  margin-bottom: 10px;
+  background: rgba(0,0,0,.08);
+  width: 270px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.table1 th{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.table1 td{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn{
+    width: 280px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bi-folder-plus{
+    position: absolute;
+    right: 20px;
+    top: 305px;
+    height: 54px;
+    width: 50px;
+    background: rgba(0,0,0,0.3);
+    padding: 18px;
+    color: #fff;
+    border-radius: 7px;
+
+
+}
+
+.read-more-container{
+  display: flex;
+
+}
+
+.container{
+  margin: 30px;
+  font-size: 12px;
+  padding: 5px;
+
+
+}
+.about-text{
+  text-align: left;
+  font-weight: bold;
+}
+.read-more-btn{
+  color: #000000;
+  text-decoration:  underline;
+  cursor: pointer;
+}
+
+.read-more-text{
+  display: none;
+  text-align: left;
+}
+
+.read-more-text--show{
+  display: inline;
+}
+
+.table2{
+  width: 270px;
+  margin: 30px;
+  margin-top: 0px;
+  padding: 30px;
+  font-size: 12px;
+}
+
+.table2 tr{
+  border-bottom: 1px solid #EAEAEA;
+
+}
+
+.table2 th{
+  text-align: left;
+  font-weight: 300;
+
+}
+
+.table2 td{
+  text-align: right;
+}
+
+caption{
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+  /* Right pane */
+.section2{
+  margin-top: 30px;
+  margin-left: 450px;
+
+}
+.advert{
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/342/613/268/artwork-angel-ganev-camera-digital-women-hd-wallpaper-preview.jpg');
+  background-size: cover;
+  height: 130px;
+  width: 925px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px;
+
+}
+
+.advert-text{
+  margin: 0px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+.advert-btn{
+  font-size: 13px;
+  color: blue;
+  padding-top: 20px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.search-bar2{
+  max-width: 700px;
+  display: inline;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  height: 50px;
+  padding: 13px;
+
+}
+
+.btn-secondary{
+  font-size: 12px;
+  width: 200px;
+  height: 50px;
+}
+
+.fa2{
+  color: #000000;
+}
+
+.search2{
+  background: transparent;
+  border: 0;
+  outline: none;
+  width: 300px;
+  height: 25px;
+  font-size: 12px;
+  color: #000000;
+
+}
+
+.nav_tools{
+  display: inline-flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.price_order{
+  height: 40px;
+  width: 170px;
+  text-align: center;
+
+}
+.price_order1{
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.tools{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #EAEAEA;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.baby{
+  padding: 27px;
+  padding-top: 10px;
+  text-align: center;
+  width: 20px;
+}
+
+.baby:hover{
+  background: rgba(0,0,0,0.3);
+  padding: 27px;
+  padding-top: 10px;
+  width: 20px;
+  transition: 0.8s;
+
+}
+
+.bips{
+  padding: 27px;
+  padding-top: 10px;
+  width: 20px;
+}
+
+.bips:hover{
+  background: rgba(0,0,0,0.3);
+  padding: 27px;
+  padding-top: 10px;
+  width: 20px;
+  transition: 0.8s;
+}
+
+.com{
+  padding: 27px;
+  padding-top: 10px;
+  width: 20px;
+}
+
+.com:hover{
+  background: rgba(0,0,0,0.3);
+  padding: 27px;
+  padding-top: 10px;
+  width: 20px;
+  transition: 0.8s;
+}
+
+.img_prices{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 960px;
+  height: 600px;
+  gap: 5px;
+  line-height: 0px;
+  margin: 0px;
+}
+
+.card{
+  width: 200px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.card:hover{
+  width: 250px;
+  height: 150px;
+  transition: 1s;
+}
+
+.card-body{
+  padding: 12px;
+  height: 70px;
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid #EAEAEA;
+
+}
+.card-title{
+  font-size: 12px;
+
+}
+
+.card-text{
+  line-height: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.price_tag{
+  color: #929AAB;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 2;
+  }
+}
